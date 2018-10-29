@@ -18,8 +18,8 @@ I assumed it's not needed for the purposes of this exercise.
 
 ## Requirements
 It requires a PostgreSQL database running.
-Env variables will be used from [`node-postgres`](https://node-postgres.com/).
-For example:
+Env variables will be used, as shown in the [`node-postgres`](https://node-postgres.com/) example.
+To run it with your variables for example:
 ```
   PGUSER=dbuser \
   PGHOST=database.server.com \
@@ -28,7 +28,7 @@ For example:
   PGPORT=3211 \
   npm run start
 ```
-
+Otherwise, by default it will expect a PostgreSQL db running on localhost:5432.
 
 ## Run
 - do `npm i` to install all npm dependencies
