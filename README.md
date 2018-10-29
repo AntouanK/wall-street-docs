@@ -12,6 +12,9 @@ The routes we have are:
 - GET `/available-files` to get a JSON with details on all saved files
 - GET `/delete-all-files` to delete all files saved in the database
 
+The "front-end" is just a simple multiple-file upload input element and some extra things like a submit button, some indicator messages and links to display uploaded files, or to delete them.
+We can obviously expand on the front-end, and give more details for the files selected, for the uploading progress, and links to download the saved files.
+I assumed it's not needed for the purposes of this exercise.
 
 ## Requirements
 It requires a PostgreSQL database running.
