@@ -27,13 +27,13 @@ To run it with your variables for example:
   PGPASSWORD=secretpassword \
   PGDATABASE=mydb \
   PGPORT=3211 \
-  npm run start
+  node ./server.js
 ```
 Otherwise, by default it will expect a PostgreSQL db running on localhost:5432.
 
 ## Run
 - do `npm i` to install all npm dependencies
-- make sure a PostgreSQL database is available
+- make sure a PostgreSQL database is available ( see Requirements above )
 - run with `npm run start`
 - upload form should be available at `http://localhost:3000/upload-multi`
 
