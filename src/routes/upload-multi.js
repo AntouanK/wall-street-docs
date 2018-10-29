@@ -62,11 +62,14 @@ const source = `
         <div id="uploading-container">
             <span>Uploading files...</span>
         </div>
-        <div id="success-container">
+        <div id="success-container" style="color: #0a9a0e;">
             <span>Files successfully uploaded.</span>
         </div>
-        <div id="error-container">
+        <div id="error-container" style="color: #9e0a0a;">
             <span>Something went wrong.</span>
+        </div>
+        <div id="available-files-container" style="margin: 20px 0;">
+            <a href="/available-files">see available files (json)</a>
         </div>
     </div>
 
