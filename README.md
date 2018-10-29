@@ -47,3 +47,9 @@ For example:
     - (db) pg
     - (test) tape \ tap-spec \ superagent
 - PostgreSQL
+
+
+## Front-end screenshot
+This is how the (primitive!) `/upload-multi` page should look like
+
+![screenshot_2018-10-29_08-52-42](https://user-images.githubusercontent.com/4569111/47639010-26d68c80-db58-11e8-8fae-328668ab36c8.png)
