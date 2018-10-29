@@ -17,7 +17,8 @@ We can obviously expand on the front-end, and give more details for the files se
 I assumed it's not needed for the purposes of this exercise.
 
 ## Requirements
-It requires a PostgreSQL database running.
+We assume `node` and `npm` are already available.
+Also, it requires a PostgreSQL database running.
 Env variables will be used, as shown in the [`node-postgres`](https://node-postgres.com/) example.
 To run it with your variables for example:
 ```
