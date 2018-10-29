@@ -68,8 +68,13 @@ const source = `
         <div id="error-container" style="color: #9e0a0a;">
             <span>Something went wrong.</span>
         </div>
-        <div id="available-files-container" style="margin: 20px 0;">
-            <a href="/available-files">see available files (json)</a>
+        <div id="links-container" style="margin: 20px 0;">
+            <div>
+                <a href="/available-files">see available files (json)</a>
+            </div>
+            <div>
+                <a href="/delete-all-files">delete all files!</a>
+            </div>
         </div>
     </div>
 
